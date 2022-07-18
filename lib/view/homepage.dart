@@ -49,8 +49,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       );
                     },
                     title: Text(
-                        // listsnapshot.data!.results![index].title![index]
-                        //     .toString(),
                         productController.productList[index].title.toString()),
                     // listsnapshot.data!.results![index].title!.toString()),
                     subtitle: Text(
